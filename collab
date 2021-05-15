@@ -1,0 +1,13 @@
+
+setwd("/cloud/project/Practica/")
+
+#Cargar Dataframes
+deployStations<-read.csv("deployStations.csv")
+sample_submission_3h_ago<-read.csv("sample_submission_3h_ago.csv")
+sample_submission_zeros<-read.csv("sample_submission_zeros.csv")
+Stations_DistanceMatrix<-read.csv("Stations_DistanceMatrix.csv")
+testStations<-read.csv("testStations.csv")
+trainingStations<-read.csv("trainingStations.csv")
+
+
+
